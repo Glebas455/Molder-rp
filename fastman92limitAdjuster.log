@@ -1,0 +1,134 @@
+Starting fastman92 limit adjuster 4.3 for WIN_X86, compilation time: Jun 19 2017 19:00:46
+Please visit http://fastman92.com
+
+Solution platform: WIN_X86
+Game detected: GTA SA 1.0 HOODLUM 14383616 bytes
+
+Global exception handler has been registered.
+---------------------------------------------
+Modified count of killable model IDs: 16000
+---------------------------------------------
+Format of new savefiles will be different: patch for save game of variable length is applied!
+Modified limit Car generators to: 2500 Is CCarGenerator_extended structure used: 0
+---------------------------------------------
+Renderware world map size set to 20000 x 20000
+Radar map size set to 12000 x 12000
+World map size set to 12000 x 12000
+World sector size set to 100 x 100
+World LOD sector size set to 200 x 200
+
+Radar info:
+Number of radar tiles per dimension: 24
+Total number of radar tiles: 576
+
+World map info info:
+World map size: 12000 x 12000
+
+World sectors:
+CWorld::ms_aSectors
+type: buildings, dummies
+count: 120 * 120 = 14400
+sector area: 100 x 100
+
+CWorld::ms_aLodPtrLists
+type: lod
+count: 60 * 60 = 3600
+sector area: 200 x 200
+
+CWorld::ms_aRepeatSectors
+type: vehicles, peds, object
+count: 16 * 16 = 256
+
+
+---------------------------------------------
+Enabling handling.cfg limit adjuster.
+New limits:
+Number of standard lines = 330
+Number of bike lines = 23
+Number of flying lines = 24
+Number of boat lines = 12
+Number of animation group lines = 30
+
+&mod_HandlingManager = 0x1D42D00, sizeof(mod_HandlingManager) = 0x15B38
+sizeof_cHandlingDataMgr_header = 0x68
+sizeof(tHandlingData_extended) = 0x100
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: VehicleStructs to: 250
+---------------------------------------------
+Modified limit of rwObjectInstances to: 5000
+---------------------------------------------
+Modified limit of matrices to: 4500
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: PtrNode Singles to: 350000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: PtrNode Doubles to: 16000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: EntryInfoNodes to: 2500
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: QuadTreeNodes to: 2000
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: Collision links to: 250
+---------------------------------------------
+Modified limit of DYNAMIC LIMITS: ColModels to: 50750
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomEnvMapPipeMatDataPool to: 20480
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomEnvMapPipeAtmDataPool to: 5120
+---------------------------------------------
+Modified limit of DYNAMIC MODELS: CustomSpecMapPipeMaterialDataPool to: 20480
+---------------------------------------------
+Modified limit of IPL:inst, buildings to: 30000
+---------------------------------------------
+Modified limit of IPL:inst, dummies to: 3000
+---------------------------------------------
+Modified limit of IPL: inst per file to: 4096
+---------------------------------------------
+Modified limit of IPL: entity index array to: 400
+---------------------------------------------
+Format of new savefiles will be different: patch for save game of variable length is applied!
+Modified limit of IPL:map zones to: 100
+---------------------------------------------
+Modified limit of IDE:objs:type1 section to 30000
+---------------------------------------------
+Modified limit of IDE:objs:type2 section to 300
+---------------------------------------------
+Modified limit of IDE:hier section to 192
+---------------------------------------------
+Modified limit of IDE:tobj section to 1000
+---------------------------------------------
+Modified limit of IDE:cars section to 350
+---------------------------------------------
+Modified limit of IDE:peds section to 400
+---------------------------------------------
+Modified max number of IMG archives to: 11
+---------------------------------------------
+Modified limit of WATER LIMITS -> Water quads to: 500
+---------------------------------------------
+Modified limit of WATER LIMITS -> Water quads and triangles list triangles to: 801
+---------------------------------------------
+Modified limit of WATER LIMITS -> Water vertices to: 1121
+---------------------------------------------
+Modified limit of cargrp.dat, number of groups: 34 number of members per group to: 63
+---------------------------------------------
+Modified limit of Streaming_DesiredNumberOfVehiclesLoaded to: 62
+---------------------------------------------
+Vehicle special features are enabled
+Number of hydra vehicles = 1
+Hydra 0 = 520
+Number of ZR350 vehicles = 1
+ZR350 0 = 477
+ZR350 1 = 15088
+ZR350 2 = 15105
+---------------------------------------------
+SPECIAL: Make paintjobs work for any ID applied.
+---------------------------------------------
+Error reporting going to be applied.
+GTA_ERROR_ATTEMPT_TO_LOAD_OBJECT_INSTANCE_WITH_UNDEFINED_ID enabled.
+GTA_ERROR_MODEL_DOES_NOT_HAVE_COLLISION_LOADED enabled.
+GTA_ERROR_CAR_GENERATOR_WITH_INVALID_MODEL_ID_IS_GETTING_REGISTERED enabled.
+GTA_ERROR_STREAM_HANDLES_LIMIT_EXCEEDED enabled.
+Error reporting is applied now.
+---------------------------------------------
+---------------------------------------------
+Number of memory changes made: 2137
+---------------------------------------------

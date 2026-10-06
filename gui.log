@@ -1,0 +1,11 @@
+Trying to set fonts path to "DATA\FONTS\"
+Path set successfull
+Set fonts path to "DATA\FONTS\"
+Creating GUIMain
+Found txd path: "C:\Users\pk\Desktop\Radmir CRMP\MODELS\FirstPerson.txd"
+TXD Loaded successfully...
+Loading font "fp_font"...
+Loading font data...
+Loading font texture from "C:\Users\pk\Desktop\Radmir CRMP\DATA\FONTS\fp_font.TXD"
+Font loaded successfully
+GUIMain created successfully
